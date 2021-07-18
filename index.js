@@ -34,6 +34,8 @@ function counter(name) {
     var i;
     if( count.checked){
             txt += parseInt(count.value);
+        }else{
+            txt -= parseInt(count.value);
         }
     document.getElementById("ctr").innerHTML = txt
     
