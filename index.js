@@ -27,3 +27,14 @@
 //     overlie(name);
     
 // }
+
+function counter(name) {
+    var count = document.getElementById(name)
+    var txt = parseInt(document.getElementById("ctr").innerText);
+    var i;
+    if( count.checked){
+            txt += parseInt(count.value);
+        }
+    document.getElementById("ctr").innerHTML = txt
+    
+    }
