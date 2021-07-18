@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: tomato;
+    font-family: fantasy;
+    border: 5px solid tomato;
+    
+}
+
+.inner{
+    margin: auto;
+    height: 100%;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 2fr repeat(7,1fr) 3fr;
+    background-image: url(./assets/tdl.png);
+    width: 75%;
+    align-items: center;
+
+
+}
+
+.content1{
+    color: red;
+    font-size: 5rem;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1rem solid red;
+}
+.content2{
+    color: teal;
+    font-size: 1rem;
+}
+
+.content2 input:hover {
+    background-color: grey;
+  }
+label{
+    padding-left: 5rem;
+}
+input:checked + label {
+    color: red;
+    text-decoration: line-through;
+  }
+input[type="checkbox"]:checked{
+    
+    box-shadow: 0 0 0 3px hotpink;
+}
+.content3{
+    color: red;
+    font-size: 3rem;
+    align-items: center;
+    text-align: center;
+    border-top: 1rem solid red;
+}
